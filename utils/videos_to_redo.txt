@@ -1,0 +1,244 @@
+================================================================================
+VIDEOS TO REDO - BLAZEPOSE EXTRACTION REQUIRED
+Generated: January 20, 2026
+================================================================================
+
+Total Activities to Redo: 19
+Total Camera Videos to Re-extract: 151
+
+Format: Subject/Activity/Camera - Expected Frames: CSV_rows, Current NPY: npy_frames (Difference)
+
+================================================================================
+SUBJECT: S1 (6 activities, 48 videos to redo)
+================================================================================
+
+S1/acting2 - ALL CAMERAS (Expected: 3704 frames)
+  S1/acting2/cam1 - Expected: 3704, Current: 3703 (diff: -1)
+  S1/acting2/cam2 - Expected: 3704, Current: 3703 (diff: -1)
+  S1/acting2/cam3 - Expected: 3704, Current: 3703 (diff: -1)
+  S1/acting2/cam4 - Expected: 3704, Current: 3703 (diff: -1)
+  S1/acting2/cam5 - Expected: 3704, Current: 3703 (diff: -1)
+  S1/acting2/cam6 - Expected: 3704, Current: 3703 (diff: -1)
+  S1/acting2/cam7 - Expected: 3704, Current: 3703 (diff: -1)
+  S1/acting2/cam8 - Expected: 3704, Current: 3703 (diff: -1)
+
+S1/acting3 - ALL CAMERAS (Expected: 2770 frames) **CRITICAL - LARGE DIFFERENCE**
+  S1/acting3/cam1 - Expected: 2770, Current: 2682 (diff: -88)
+  S1/acting3/cam2 - Expected: 2770, Current: 2679 (diff: -91)
+  S1/acting3/cam3 - Expected: 2770, Current: 2679 (diff: -91)
+  S1/acting3/cam4 - Expected: 2770, Current: 2679 (diff: -91)
+  S1/acting3/cam5 - Expected: 2770, Current: 2682 (diff: -88)
+  S1/acting3/cam6 - Expected: 2770, Current: 2682 (diff: -88)
+  S1/acting3/cam7 - Expected: 2770, Current: 2769 (diff: -1)
+  S1/acting3/cam8 - Expected: 2770, Current: 2681 (diff: -89)
+
+S1/rom2 - ALL CAMERAS (Expected: 6777 frames)
+  S1/rom2/cam1 - Expected: 6777, Current: 6776 (diff: -1)
+  S1/rom2/cam2 - Expected: 6777, Current: 6776 (diff: -1)
+  S1/rom2/cam3 - Expected: 6777, Current: 6776 (diff: -1)
+  S1/rom2/cam4 - Expected: 6777, Current: 6776 (diff: -1)
+  S1/rom2/cam5 - Expected: 6777, Current: 6776 (diff: -1)
+  S1/rom2/cam6 - Expected: 6777, Current: 6776 (diff: -1)
+  S1/rom2/cam7 - Expected: 6777, Current: 6776 (diff: -1)
+  S1/rom2/cam8 - Expected: 6777, Current: 6776 (diff: -1)
+
+S1/rom3 - ALL CAMERAS (Expected: 5944 frames)
+  S1/rom3/cam1 - Expected: 5944, Current: 5942 (diff: -2)
+  S1/rom3/cam2 - Expected: 5944, Current: 5942 (diff: -2)
+  S1/rom3/cam3 - Expected: 5944, Current: 5942 (diff: -2)
+  S1/rom3/cam4 - Expected: 5944, Current: 5942 (diff: -2)
+  S1/rom3/cam5 - Expected: 5944, Current: 5942 (diff: -2)
+  S1/rom3/cam6 - Expected: 5944, Current: 5942 (diff: -2)
+  S1/rom3/cam7 - Expected: 5944, Current: 5942 (diff: -2)
+  S1/rom3/cam8 - Expected: 5944, Current: 5942 (diff: -2)
+
+S1/walking1 - ALL CAMERAS (Expected: 3671 frames)
+  S1/walking1/cam1 - Expected: 3671, Current: 3672 (diff: +1)
+  S1/walking1/cam2 - Expected: 3671, Current: 3672 (diff: +1)
+  S1/walking1/cam3 - Expected: 3671, Current: 3672 (diff: +1)
+  S1/walking1/cam4 - Expected: 3671, Current: 3672 (diff: +1)
+  S1/walking1/cam5 - Expected: 3671, Current: 3672 (diff: +1)
+  S1/walking1/cam6 - Expected: 3671, Current: 3672 (diff: +1)
+  S1/walking1/cam7 - Expected: 3671, Current: 3672 (diff: +1)
+  S1/walking1/cam8 - Expected: 3671, Current: 3672 (diff: +1)
+
+S1/walking2 - ALL CAMERAS (Expected: 3189 frames)
+  S1/walking2/cam1 - Expected: 3189, Current: 3188 (diff: -1)
+  S1/walking2/cam2 - Expected: 3189, Current: 3188 (diff: -1)
+  S1/walking2/cam3 - Expected: 3189, Current: 3188 (diff: -1)
+  S1/walking2/cam4 - Expected: 3189, Current: 3188 (diff: -1)
+  S1/walking2/cam5 - Expected: 3189, Current: 3188 (diff: -1)
+  S1/walking2/cam6 - Expected: 3189, Current: 3188 (diff: -1)
+  S1/walking2/cam7 - Expected: 3189, Current: 3188 (diff: -1)
+  S1/walking2/cam8 - Expected: 3189, Current: 3188 (diff: -1)
+
+================================================================================
+SUBJECT: S2 (11 activities, 88 videos to redo)
+================================================================================
+
+S2/acting1 - ALL CAMERAS (Expected: 3387 frames) **CRITICAL - CAM6 MAJOR ISSUE**
+  S2/acting1/cam1 - Expected: 3387, Current: 3386 (diff: -1)
+  S2/acting1/cam2 - Expected: 3387, Current: 3386 (diff: -1)
+  S2/acting1/cam3 - Expected: 3387, Current: 3386 (diff: -1)
+  S2/acting1/cam4 - Expected: 3387, Current: 3386 (diff: -1)
+  S2/acting1/cam5 - Expected: 3387, Current: 3386 (diff: -1)
+  S2/acting1/cam6 - Expected: 3387, Current: 2421 (diff: -966) **CRITICAL**
+  S2/acting1/cam7 - Expected: 3387, Current: 3386 (diff: -1)
+  S2/acting1/cam8 - Expected: 3387, Current: 3386 (diff: -1)
+
+S2/acting2 - ALL CAMERAS (Expected: 3808 frames)
+  S2/acting2/cam1 - Expected: 3808, Current: 3807 (diff: -1)
+  S2/acting2/cam2 - Expected: 3808, Current: 3807 (diff: -1)
+  S2/acting2/cam3 - Expected: 3808, Current: 3807 (diff: -1)
+  S2/acting2/cam4 - Expected: 3808, Current: 3807 (diff: -1)
+  S2/acting2/cam5 - Expected: 3808, Current: 3807 (diff: -1)
+  S2/acting2/cam6 - Expected: 3808, Current: 3807 (diff: -1)
+  S2/acting2/cam7 - Expected: 3808, Current: 3807 (diff: -1)
+  S2/acting2/cam8 - Expected: 3808, Current: 3807 (diff: -1)
+
+S2/acting3 - ALL CAMERAS (Expected: 4828 frames)
+  S2/acting3/cam1 - Expected: 4828, Current: 4829 (diff: +1)
+  S2/acting3/cam2 - Expected: 4828, Current: 4829 (diff: +1)
+  S2/acting3/cam3 - Expected: 4828, Current: 4829 (diff: +1)
+  S2/acting3/cam4 - Expected: 4828, Current: 4829 (diff: +1)
+  S2/acting3/cam5 - Expected: 4828, Current: 4829 (diff: +1)
+  S2/acting3/cam6 - Expected: 4828, Current: 4829 (diff: +1)
+  S2/acting3/cam7 - Expected: 4828, Current: 4829 (diff: +1)
+  S2/acting3/cam8 - Expected: 4828, Current: 4829 (diff: +1)
+
+S2/freestyle1 - ALL CAMERAS (Expected: 2591 frames)
+  S2/freestyle1/cam1 - Expected: 2591, Current: 2592 (diff: +1)
+  S2/freestyle1/cam2 - Expected: 2591, Current: 2592 (diff: +1)
+  S2/freestyle1/cam3 - Expected: 2591, Current: 2592 (diff: +1)
+  S2/freestyle1/cam4 - Expected: 2591, Current: 2592 (diff: +1)
+  S2/freestyle1/cam5 - Expected: 2591, Current: 2592 (diff: +1)
+  S2/freestyle1/cam6 - Expected: 2591, Current: 2592 (diff: +1)
+  S2/freestyle1/cam7 - Expected: 2591, Current: 2592 (diff: +1)
+  S2/freestyle1/cam8 - Expected: 2591, Current: 2592 (diff: +1)
+
+S2/freestyle2 - ALL CAMERAS (Expected: 2092 frames)
+  S2/freestyle2/cam1 - Expected: 2092, Current: 2091 (diff: -1)
+  S2/freestyle2/cam2 - Expected: 2092, Current: 2091 (diff: -1)
+  S2/freestyle2/cam3 - Expected: 2092, Current: 2091 (diff: -1)
+  S2/freestyle2/cam4 - Expected: 2092, Current: 2091 (diff: -1)
+  S2/freestyle2/cam5 - Expected: 2092, Current: 2091 (diff: -1)
+  S2/freestyle2/cam6 - Expected: 2092, Current: 2091 (diff: -1)
+  S2/freestyle2/cam7 - Expected: 2092, Current: 2091 (diff: -1)
+  S2/freestyle2/cam8 - Expected: 2092, Current: 2091 (diff: -1)
+
+S2/freestyle3 - ALL CAMERAS (Expected: 3178 frames)
+  S2/freestyle3/cam1 - Expected: 3178, Current: 3177 (diff: -1)
+  S2/freestyle3/cam2 - Expected: 3178, Current: 3177 (diff: -1)
+  S2/freestyle3/cam3 - Expected: 3178, Current: 3177 (diff: -1)
+  S2/freestyle3/cam4 - Expected: 3178, Current: 3177 (diff: -1)
+  S2/freestyle3/cam5 - Expected: 3178, Current: 3177 (diff: -1)
+  S2/freestyle3/cam6 - Expected: 3178, Current: 3177 (diff: -1)
+  S2/freestyle3/cam7 - Expected: 3178, Current: 3177 (diff: -1)
+  S2/freestyle3/cam8 - Expected: 3178, Current: 3177 (diff: -1)
+
+S2/rom1 - ALL CAMERAS (Expected: 6419 frames)
+  S2/rom1/cam1 - Expected: 6419, Current: 6420 (diff: +1)
+  S2/rom1/cam2 - Expected: 6419, Current: 6420 (diff: +1)
+  S2/rom1/cam3 - Expected: 6419, Current: 6420 (diff: +1)
+  S2/rom1/cam4 - Expected: 6419, Current: 6420 (diff: +1)
+  S2/rom1/cam5 - Expected: 6419, Current: 6420 (diff: +1)
+  S2/rom1/cam6 - Expected: 6419, Current: 6420 (diff: +1)
+  S2/rom1/cam7 - Expected: 6419, Current: 6420 (diff: +1)
+  S2/rom1/cam8 - Expected: 6419, Current: 6420 (diff: +1)
+
+S2/rom2 - ALL CAMERAS (Expected: 5939 frames)
+  S2/rom2/cam1 - Expected: 5939, Current: 5938 (diff: -1)
+  S2/rom2/cam2 - Expected: 5939, Current: 5938 (diff: -1)
+  S2/rom2/cam3 - Expected: 5939, Current: 5938 (diff: -1)
+  S2/rom2/cam4 - Expected: 5939, Current: 5938 (diff: -1)
+  S2/rom2/cam5 - Expected: 5939, Current: 5938 (diff: -1)
+  S2/rom2/cam6 - Expected: 5939, Current: 5938 (diff: -1)
+  S2/rom2/cam7 - Expected: 5939, Current: 5938 (diff: -1)
+  S2/rom2/cam8 - Expected: 5939, Current: 5938 (diff: -1)
+
+S2/rom3 - ALL CAMERAS (Expected: 5995 frames)
+  S2/rom3/cam1 - Expected: 5995, Current: 5994 (diff: -1)
+  S2/rom3/cam2 - Expected: 5995, Current: 5994 (diff: -1)
+  S2/rom3/cam3 - Expected: 5995, Current: 5994 (diff: -1)
+  S2/rom3/cam4 - Expected: 5995, Current: 5994 (diff: -1)
+  S2/rom3/cam5 - Expected: 5995, Current: 5994 (diff: -1)
+  S2/rom3/cam6 - Expected: 5995, Current: 5994 (diff: -1)
+  S2/rom3/cam7 - Expected: 5995, Current: 5994 (diff: -1)
+  S2/rom3/cam8 - Expected: 5995, Current: 5994 (diff: -1)
+
+S2/walking2 - ALL CAMERAS (Expected: 3575 frames)
+  S2/walking2/cam1 - Expected: 3575, Current: 3576 (diff: +1)
+  S2/walking2/cam2 - Expected: 3575, Current: 3576 (diff: +1)
+  S2/walking2/cam3 - Expected: 3575, Current: 3576 (diff: +1)
+  S2/walking2/cam4 - Expected: 3575, Current: 3576 (diff: +1)
+  S2/walking2/cam5 - Expected: 3575, Current: 3576 (diff: +1)
+  S2/walking2/cam6 - Expected: 3575, Current: 3576 (diff: +1)
+  S2/walking2/cam7 - Expected: 3575, Current: 3576 (diff: +1)
+  S2/walking2/cam8 - Expected: 3575, Current: 3576 (diff: +1)
+
+S2/walking3 - ALL CAMERAS (Expected: 3553 frames)
+  S2/walking3/cam1 - Expected: 3553, Current: 3552 (diff: -1)
+  S2/walking3/cam2 - Expected: 3553, Current: 3552 (diff: -1)
+  S2/walking3/cam3 - Expected: 3553, Current: 3552 (diff: -1)
+  S2/walking3/cam4 - Expected: 3553, Current: 3552 (diff: -1)
+  S2/walking3/cam5 - Expected: 3553, Current: 3552 (diff: -1)
+  S2/walking3/cam6 - Expected: 3553, Current: 3552 (diff: -1)
+  S2/walking3/cam7 - Expected: 3553, Current: 3552 (diff: -1)
+  S2/walking3/cam8 - Expected: 3553, Current: 3552 (diff: -1)
+
+================================================================================
+SUBJECT: S3 (2 activities, 15 videos to redo)
+================================================================================
+
+S3/rom1 - CAMERAS 2-8 (Expected: 5700 frames)
+  S3/rom1/cam2 - Expected: 5700, Current: 5702 (diff: +2)
+  S3/rom1/cam3 - Expected: 5700, Current: 5702 (diff: +2)
+  S3/rom1/cam4 - Expected: 5700, Current: 5702 (diff: +2)
+  S3/rom1/cam5 - Expected: 5700, Current: 5702 (diff: +2)
+  S3/rom1/cam6 - Expected: 5700, Current: 5702 (diff: +2)
+  S3/rom1/cam7 - Expected: 5700, Current: 5702 (diff: +2)
+  S3/rom1/cam8 - Expected: 5700, Current: 5702 (diff: +2)
+
+S3/rom3 - ALL CAMERAS (Expected: 4858 frames)
+  S3/rom3/cam1 - Expected: 4858, Current: 4859 (diff: +1)
+  S3/rom3/cam2 - Expected: 4858, Current: 4859 (diff: +1)
+  S3/rom3/cam3 - Expected: 4858, Current: 4859 (diff: +1)
+  S3/rom3/cam4 - Expected: 4858, Current: 4859 (diff: +1)
+  S3/rom3/cam5 - Expected: 4858, Current: 4859 (diff: +1)
+  S3/rom3/cam6 - Expected: 4858, Current: 4859 (diff: +1)
+  S3/rom3/cam7 - Expected: 4858, Current: 4859 (diff: +1)
+  S3/rom3/cam8 - Expected: 4858, Current: 4859 (diff: +1)
+
+================================================================================
+SUMMARY BY PRIORITY
+================================================================================
+
+HIGH PRIORITY (Large discrepancies):
+  1. S2/acting1/cam6 - Missing 966 frames
+  2. S1/acting3 - Missing 88-91 frames across all cameras
+
+MEDIUM PRIORITY (±2 frames):
+  1. S1/rom3 - All cameras missing 2 frames
+  2. S3/rom1 - Cameras 2-8 have 2 extra frames
+
+LOW PRIORITY (±1 frame):
+  - All other mismatched activities (consistent ±1 frame difference)
+
+================================================================================
+EXTRACTION COMMAND REFERENCE
+================================================================================
+
+Video path pattern:
+  totalcapture_dataset/Videos/{subject}/{activity}_cam{camera}.mp4
+  
+Example:
+  totalcapture_dataset/Videos/s1/acting2_cam1.mp4
+
+Output path pattern:
+  main_all_keypoints/blazepose/{SUBJECT}/{activity}/blaze_{SUBJECT}_{activity}_cam{camera}.npy
+  
+Example:
+  main_all_keypoints/blazepose/S1/acting2/blaze_S1_acting2_cam1.npy
+
+Note: Subject folder names in Videos are lowercase (s1, s2, s3)
+      Subject folder names in output are uppercase (S1, S2, S3)
