@@ -1,0 +1,48 @@
+[project]
+name = "blaze2cap"
+version = "0.1.0"
+description = "3D Human Pose Estimation: BlazePose to TotalCapture Motion Dataset Pipeline"
+readme = "README.md"
+authors = [
+    {name = "BlazeWild"}
+]
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["pose-estimation", "blazepose", "totalcapture", "3d-pose", "motion-capture", "computer-vision", "dataset-pipeline"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "numpy>=1.21.0",
+    "torch>=2.0.0",
+    "mediapipe>=0.10.0",
+    "opencv-python>=4.7.0",
+    "pandas>=1.3.0",
+    "tqdm>=4.62.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter>=1.0.0",
+    "matplotlib>=3.5.0",
+    "plotly>=5.10.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/BlazeWild/Blaze2Cap"
+Repository = "https://github.com/BlazeWild/Blaze2Cap"
+Issues = "https://github.com/BlazeWild/Blaze2Cap/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []

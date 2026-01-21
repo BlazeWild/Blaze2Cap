@@ -1,0 +1,5 @@
+python test\visualize_test.py --mediapipe "12_keypoints\TC\S1\blazepose_TC_S1_acting1_cam1_12kp.csv" --gt "12_keypoints\s1\acting1\gt_skel_gbl_pos.csv"
+
+
+
+python visualize_keypoints_app.py --input "d:\Ashok\_AI\_COMPUTER_VISION\____RESEARCH\___MOTION_T_LIGHTNING\non_skipped_frames_csv\s1_acting1_input.csv" --gt "d:\Ashok\_AI\_COMPUTER_VISION\____RESEARCH\___MOTION_T_LIGHTNING\non_skipped_frames_csv\s1_acting1_gt.csv"

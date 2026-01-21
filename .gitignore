@@ -1,0 +1,165 @@
+# Blaze2Cap - GitIgnore
+
+# ============================================
+# LARGE DATASETS (Exclude from Git)
+# ============================================
+# TotalCapture Videos (~50GB)
+totalcapture_dataset/
+12_keypoints/
+
+# Processed datasets
+final_numpy_dataset/
+main_all_keypoints/blazepose/
+main_all_keypoints/totalcapture/
+
+# ============================================
+# Python
+# ============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.uv/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# ============================================
+# IDE & Editors
+# ============================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# OS Generated Files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================
+# Data & Model Files
+# ============================================
+# Large numpy files
+*.npy
+
+# Large CSV files (keep small ones)
+*.csv
+!non_skipped_frames_csv/*.csv
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Large text reports
+*_full_report.txt
+
+# HTML visualizations (can be regenerated)
+*.html
+
+# Checkpoints and models
+*.pth
+*.pt
+*.h5
+*.ckpt
+checkpoint/
+checkpoints/
+models/
+weights/
+
+# ============================================
+# Logs & Temporary Files
+# ============================================
+*.log
+*.tmp
+*.temp
+logs/
+*.out
+
+# ============================================
+# Project Specific
+# ============================================
+# Download tracking
+download.txt
+
+# Test outputs
+test/*.csv
+test/*.txt
+!test/conclusion.txt
+
+# Processing statistics
+processing_statistics.txt
+
+# Deprecated/backup files
+*.bak
+*.old
+backup/
