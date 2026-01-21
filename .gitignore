@@ -1,16 +1,17 @@
 # Blaze2Cap - GitIgnore
+# Public repo: Only Blaze2Cap folder + root config files
 
 # ============================================
-# LARGE DATASETS (Exclude from Git)
+# EXCLUDE ALL FOLDERS EXCEPT Blaze2Cap
 # ============================================
-# TotalCapture Videos (~50GB)
+# All data, utilities, and test folders (kept in private repo)
 totalcapture_dataset/
 12_keypoints/
-
-# Processed datasets
 final_numpy_dataset/
-main_all_keypoints/blazepose/
-main_all_keypoints/totalcapture/
+main_all_keypoints/
+utils/
+test/
+non_skipped_frames_csv/
 
 # ============================================
 # Python
