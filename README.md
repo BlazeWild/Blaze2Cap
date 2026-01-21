@@ -23,9 +23,10 @@ Blaze2Cap bridges the gap between marker-based motion capture systems (TotalCapt
 ### 1. **Pose Extraction**
 
 - Extracts all 33 MediaPipe BlazePose 3D world landmarks (x, y, z in meters)
-- Optimized for GPU (T4) processing with sequential video handling
+- Sequential video processing with GPU acceleration support
 - Handles frame skipping when pose detection fails
-- Outputs NumPy arrays `(frames, 33, 4)` with `[x, y, z, visibility]`
+- Outputs NumPy arrays `(frames, 33, 4)` with `[x, y, z, prediction_flag]`
+  - The 4th channel is a flag indicating if the previous frame was predicted, used for preprocessing and masking
 
 ### 2. **Data Synchronization**
 
@@ -212,12 +213,13 @@ Selected from BlazePose 33 landmarks for compatibility with motion capture:
 
 ### **Data Format**
 
-- **Input:** `(frames, 12, 4)` → `[x, y, z, visibility]`
+- **Input:** `(frames, 12, 4)` → `[x, y, z, prediction_flag]`
+  - The 4th channel indicates if the previous frame was predicted (used for preprocessing and masking)
 - **Features:** Position + Velocity = 6 channels per joint → 72 total features
 - **Windows:** Sliding window sequences for temporal context
 - **Masking:**
   - Frame mask: Valid/invalid entire frames
-  - Joint mask: Individual joint visibility per frame
+  - Joint mask: Individual joint prediction status per frame
 
 ### **Splits**
 
