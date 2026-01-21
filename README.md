@@ -64,32 +64,11 @@ Blaze2Cap/
 │   ├── modules/                        # Model modules (placeholder)
 │   └── learn/                          # Jupyter notebooks for experimentation
 │
-├── main_all_keypoints/                 # BlazePose extraction (33 landmarks)
-│   ├── extract_all_blazepose_keypoints.py
-│   └── blazepose/                      # Output: .npy files per video
-│       ├── S1/ S2/ S3/ S4/ S5/
-│
-├── utils/                              # Preprocessing & analysis tools
-│   ├── extract_blazepose_12kp.py      # Filter to 12 key joints
-│   ├── filter_ground_truth_12kp.py    # Extract GT for 12 joints
-│   ├── combine_input_gt.py            # Sync BlazePose with GT
-│   ├── visualize_keypoints_html.py    # Interactive 3D visualization
-│   └── README_pose_extraction.md
-│
-├── final_numpy_dataset/                # Final synchronized dataset
-│   ├── dataset_map.json               # Train/test split metadata
-│   ├── blazepose_numpy/               # BlazePose predictions (12 joints)
-│   └── gt_numpy/                      # Ground truth data (12 joints)
-│
-├── test/                               # Verification & analysis scripts
-│   ├── comprehensive_verification.py
-│   ├── compare_frame_counts.py
-│   └── conclusion.txt                 # Data quality findings
-│
-├── non_skipped_frames_csv/            # Frame tracking logs
 ├── pyproject.toml                     # Project dependencies (uv)
 └── README.md                          # This file
 ```
+
+> **Note:** Data processing utilities, test scripts, and preprocessing tools are in the [private repository](https://github.com/BlazeWild/Blaze2cap-all-data-exceptcode).
 
 ---
 
@@ -125,44 +104,7 @@ uv pip install -e ".[dev]"  # Includes Jupyter, Matplotlib, Plotly
 
 ## 📊 Usage
 
-### 1. **Extract BlazePose Landmarks** (33 Keypoints)
-
-```bash
-cd main_all_keypoints
-python extract_all_blazepose_keypoints.py
-```
-
-**Input:** TotalCapture videos in `totalcapture_dataset/Videos/`  
-**Output:** NumPy arrays `(frames, 33, 4)` in `blazepose/S{1-5}/`
-
-### 2. **Filter to 12 Key Joints**
-
-```bash
-cd utils
-python extract_blazepose_12kp.py  # BlazePose -> 12 joints
-python filter_ground_truth_12kp.py  # GT -> 12 joints
-```
-
-**Output:** Filtered `.npy` files in `final_numpy_dataset/`
-
-### 3. **Synchronize BlazePose with Ground Truth**
-
-```bash
-python combine_input_gt.py
-```
-
-Aligns frame counts between BlazePose predictions and GT data.
-
-### 4. **Generate Dataset Mapping**
-
-```bash
-cd Blaze2Cap/data
-python generate_json.py
-```
-
-Creates `dataset_map.json` with train/test splits.
-
-### 5. **Load Data in PyTorch**
+### **Load Data in PyTorch**
 
 ```python
 from Blaze2Cap.data.data_loader import PoseSequenceDataset
@@ -228,13 +170,15 @@ Selected from BlazePose 33 landmarks for compatibility with motion capture:
 
 ---
 
-## 🔍 Data Quality
+## 🔍 Data Processing
 
-Frame synchronization between videos, BlazePose outputs, and ground truth:
+For data extraction, preprocessing, and analysis tools, see the [private repository](https://github.com/BlazeWild/Blaze2cap-all-data-exceptcode) which includes:
 
-✅ **Perfect Match:** Videos ↔ BlazePose NPY files (100% synchronized)  
-⚠️ **GT Mismatches:** Some GT files have ±1 to ±88 frame differences  
-📝 **Documented:** See [test/conclusion.txt](test/conclusion.txt) for detailed findings
+- **BlazePose extraction** (33 landmarks from videos)
+- **Data filtering** (12 key joints)
+- **Frame synchronization** between BlazePose and ground truth
+- **Verification scripts** and quality analysis
+- **Visualization tools** for 3D keypoints
 
 ---
 
