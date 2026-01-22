@@ -1,0 +1,13 @@
+The file has the following format: 
+
+
+ num_cameras distortion_order 
+ (Camera 1) 
+   min_row max_row min_col max_col 
+   fx fy cx cy 
+   distortion params 
+   3x3 Rotation matrix R 
+   3x1 translation t 
+   (Such that a world point in the camera coordinate frame is given by p' = Rp + t) 
+   (Such that a project point for a perfect pinhole camera with no distortion is u = fx* p'.x/p'.zworld point in the camera coordinate frame is given by p' = Rp + t) 
+ (Camera 2)...
