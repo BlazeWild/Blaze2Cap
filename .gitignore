@@ -14,7 +14,7 @@ totalcapture_dataset/Videos/*.mkv
 final_numpy_dataset/
 main_all_keypoints/
 utils/
-test/
+# test/  # Commented out to allow pushing test folder
 non_skipped_frames_csv/
 
 # ============================================
