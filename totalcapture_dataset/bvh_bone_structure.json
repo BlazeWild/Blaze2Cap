@@ -1,0 +1,512 @@
+{
+    "Hips": {
+        "parent": null,
+        "type": "ROOT",
+        "offset_raw": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "offset_meters": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "length_meters": 0.0
+    },
+    "Spine": {
+        "parent": "Hips",
+        "type": "JOINT",
+        "offset_raw": [
+            0.0,
+            1.81777,
+            -2.72665
+        ],
+        "offset_meters": [
+            0.0,
+            0.046171358,
+            -0.06925690999999999
+        ],
+        "length_meters": 0.08323649369304466
+    },
+    "Spine1": {
+        "parent": "Spine",
+        "type": "JOINT",
+        "offset_raw": [
+            0.0,
+            0.6313,
+            -3.5803
+        ],
+        "offset_meters": [
+            0.0,
+            0.016035019999999997,
+            -0.09093961999999998
+        ],
+        "length_meters": 0.09234249483387806
+    },
+    "Spine2": {
+        "parent": "Spine1",
+        "type": "JOINT",
+        "offset_raw": [
+            0.0,
+            0.31686,
+            -3.6217
+        ],
+        "offset_meters": [
+            0.0,
+            0.008048244,
+            -0.09199118
+        ],
+        "length_meters": 0.09234257647085627
+    },
+    "Spine3": {
+        "parent": "Spine2",
+        "type": "JOINT",
+        "offset_raw": [
+            0.0,
+            0.0,
+            -3.63553
+        ],
+        "offset_meters": [
+            0.0,
+            0.0,
+            -0.092342462
+        ],
+        "length_meters": 0.092342462
+    },
+    "Neck": {
+        "parent": "Spine3",
+        "type": "JOINT",
+        "offset_raw": [
+            1e-06,
+            -1.36332,
+            -9.54327
+        ],
+        "offset_meters": [
+            2.54e-08,
+            -0.034628328,
+            -0.24239905799999997
+        ],
+        "length_meters": 0.24486000984105913
+    },
+    "Head": {
+        "parent": "Neck",
+        "type": "JOINT",
+        "offset_raw": [
+            0.0,
+            -0.86804,
+            -4.922911
+        ],
+        "offset_meters": [
+            0.0,
+            -0.022048216,
+            -0.1250419394
+        ],
+        "length_meters": 0.1269709039020197
+    },
+    "Head_End": {
+        "parent": "Head",
+        "type": "End Site",
+        "offset_raw": [
+            1e-06,
+            0.0,
+            -5.885021
+        ],
+        "offset_meters": [
+            2.54e-08,
+            0.0,
+            -0.1494795334
+        ],
+        "length_meters": 0.14947953340000217
+    },
+    "RightShoulder": {
+        "parent": "Spine3",
+        "type": "JOINT",
+        "offset_raw": [
+            1.14868,
+            -1.91447,
+            -6.20289
+        ],
+        "offset_meters": [
+            0.029176472,
+            -0.048627538,
+            -0.157553406
+        ],
+        "length_meters": 0.16744843896707148
+    },
+    "RightArm": {
+        "parent": "RightShoulder",
+        "type": "JOINT",
+        "offset_raw": [
+            5.70512,
+            0.0,
+            0.0
+        ],
+        "offset_meters": [
+            0.14491004799999999,
+            0.0,
+            0.0
+        ],
+        "length_meters": 0.14491004799999999
+    },
+    "RightForeArm": {
+        "parent": "RightArm",
+        "type": "JOINT",
+        "offset_raw": [
+            11.37274,
+            0.0,
+            2e-06
+        ],
+        "offset_meters": [
+            0.288867596,
+            0.0,
+            5.08e-08
+        ],
+        "length_meters": 0.2888675960000045
+    },
+    "RightHand": {
+        "parent": "RightForeArm",
+        "type": "JOINT",
+        "offset_raw": [
+            8.645779,
+            0.0,
+            0.0
+        ],
+        "offset_meters": [
+            0.21960278659999996,
+            0.0,
+            0.0
+        ],
+        "length_meters": 0.21960278659999996
+    },
+    "RightHandEnd": {
+        "parent": "RightHand",
+        "type": "JOINT",
+        "offset_raw": [
+            2.594219,
+            0.0,
+            0.0
+        ],
+        "offset_meters": [
+            0.0658931626,
+            0.0,
+            0.0
+        ],
+        "length_meters": 0.0658931626
+    },
+    "RightHandEnd_End": {
+        "parent": "RightHandEnd",
+        "type": "End Site",
+        "offset_raw": [
+            2.594217,
+            0.0,
+            0.0
+        ],
+        "offset_meters": [
+            0.0658931118,
+            0.0,
+            0.0
+        ],
+        "length_meters": 0.0658931118
+    },
+    "RightHandThumb1": {
+        "parent": "RightHand",
+        "type": "JOINT",
+        "offset_raw": [
+            1.037689,
+            -1.72948,
+            0.69179
+        ],
+        "offset_meters": [
+            0.0263573006,
+            -0.043928791999999994,
+            0.017571466
+        ],
+        "length_meters": 0.05415904798726783
+    },
+    "RightHandThumb1_End": {
+        "parent": "RightHandThumb1",
+        "type": "End Site",
+        "offset_raw": [
+            2.505819,
+            -0.67143,
+            0.0
+        ],
+        "offset_meters": [
+            0.0636478026,
+            -0.017054322,
+            0.0
+        ],
+        "length_meters": 0.06589303965282108
+    },
+    "LeftShoulder": {
+        "parent": "Spine3",
+        "type": "JOINT",
+        "offset_raw": [
+            -1.148679,
+            -1.91447,
+            -6.20289
+        ],
+        "offset_meters": [
+            -0.0291764466,
+            -0.048627538,
+            -0.157553406
+        ],
+        "length_meters": 0.16744843454133854
+    },
+    "LeftArm": {
+        "parent": "LeftShoulder",
+        "type": "JOINT",
+        "offset_raw": [
+            -5.70512,
+            0.0,
+            0.0
+        ],
+        "offset_meters": [
+            -0.14491004799999999,
+            0.0,
+            0.0
+        ],
+        "length_meters": 0.14491004799999999
+    },
+    "LeftForeArm": {
+        "parent": "LeftArm",
+        "type": "JOINT",
+        "offset_raw": [
+            -11.37274,
+            0.0,
+            -2e-06
+        ],
+        "offset_meters": [
+            -0.288867596,
+            0.0,
+            -5.08e-08
+        ],
+        "length_meters": 0.2888675960000045
+    },
+    "LeftHand": {
+        "parent": "LeftForeArm",
+        "type": "JOINT",
+        "offset_raw": [
+            -8.645779,
+            0.0,
+            0.0
+        ],
+        "offset_meters": [
+            -0.21960278659999996,
+            0.0,
+            0.0
+        ],
+        "length_meters": 0.21960278659999996
+    },
+    "LeftHandEnd": {
+        "parent": "LeftHand",
+        "type": "JOINT",
+        "offset_raw": [
+            -2.594219,
+            0.0,
+            0.0
+        ],
+        "offset_meters": [
+            -0.0658931626,
+            0.0,
+            0.0
+        ],
+        "length_meters": 0.0658931626
+    },
+    "LeftHandEnd_End": {
+        "parent": "LeftHandEnd",
+        "type": "End Site",
+        "offset_raw": [
+            -2.594221,
+            0.0,
+            0.0
+        ],
+        "offset_meters": [
+            -0.0658932134,
+            0.0,
+            0.0
+        ],
+        "length_meters": 0.0658932134
+    },
+    "LeftHandThumb1": {
+        "parent": "LeftHand",
+        "type": "JOINT",
+        "offset_raw": [
+            -1.037689,
+            -1.72948,
+            0.69179
+        ],
+        "offset_meters": [
+            -0.0263573006,
+            -0.043928791999999994,
+            0.017571466
+        ],
+        "length_meters": 0.05415904798726783
+    },
+    "LeftHandThumb1_End": {
+        "parent": "LeftHandThumb1",
+        "type": "End Site",
+        "offset_raw": [
+            -2.505819,
+            -0.67143,
+            0.0
+        ],
+        "offset_meters": [
+            -0.0636478026,
+            -0.017054322,
+            0.0
+        ],
+        "length_meters": 0.06589303965282108
+    },
+    "RightUpLeg": {
+        "parent": "Hips",
+        "type": "JOINT",
+        "offset_raw": [
+            3.40776,
+            0.0,
+            0.99553
+        ],
+        "offset_meters": [
+            0.086557104,
+            0.0,
+            0.025286462
+        ],
+        "length_meters": 0.09017503763982723
+    },
+    "RightLeg": {
+        "parent": "RightUpLeg",
+        "type": "JOINT",
+        "offset_raw": [
+            -1e-06,
+            0.0,
+            14.91697
+        ],
+        "offset_meters": [
+            -2.54e-08,
+            0.0,
+            0.37889103799999996
+        ],
+        "length_meters": 0.3788910380000008
+    },
+    "RightFoot": {
+        "parent": "RightLeg",
+        "type": "JOINT",
+        "offset_raw": [
+            -1e-06,
+            0.0,
+            14.781019
+        ],
+        "offset_meters": [
+            -2.54e-08,
+            0.0,
+            0.3754378826
+        ],
+        "length_meters": 0.3754378826000008
+    },
+    "RightToeBase": {
+        "parent": "RightFoot",
+        "type": "JOINT",
+        "offset_raw": [
+            -0.0,
+            -5.67053,
+            2.063911
+        ],
+        "offset_meters": [
+            -0.0,
+            -0.144031462,
+            0.0524233394
+        ],
+        "length_meters": 0.1532751400576918
+    },
+    "RightToeBase_End": {
+        "parent": "RightToeBase",
+        "type": "End Site",
+        "offset_raw": [
+            0.0,
+            -2.75684,
+            0.0
+        ],
+        "offset_meters": [
+            0.0,
+            -0.07002373599999999,
+            0.0
+        ],
+        "length_meters": 0.07002373599999999
+    },
+    "LeftUpLeg": {
+        "parent": "Hips",
+        "type": "JOINT",
+        "offset_raw": [
+            -3.40776,
+            0.0,
+            0.99553
+        ],
+        "offset_meters": [
+            -0.086557104,
+            0.0,
+            0.025286462
+        ],
+        "length_meters": 0.09017503763982723
+    },
+    "LeftLeg": {
+        "parent": "LeftUpLeg",
+        "type": "JOINT",
+        "offset_raw": [
+            -1e-06,
+            0.0,
+            14.91697
+        ],
+        "offset_meters": [
+            -2.54e-08,
+            0.0,
+            0.37889103799999996
+        ],
+        "length_meters": 0.3788910380000008
+    },
+    "LeftFoot": {
+        "parent": "LeftLeg",
+        "type": "JOINT",
+        "offset_raw": [
+            -1e-06,
+            0.0,
+            14.781019
+        ],
+        "offset_meters": [
+            -2.54e-08,
+            0.0,
+            0.3754378826
+        ],
+        "length_meters": 0.3754378826000008
+    },
+    "LeftToeBase": {
+        "parent": "LeftFoot",
+        "type": "JOINT",
+        "offset_raw": [
+            -0.0,
+            -5.67053,
+            2.063911
+        ],
+        "offset_meters": [
+            -0.0,
+            -0.144031462,
+            0.0524233394
+        ],
+        "length_meters": 0.1532751400576918
+    },
+    "LeftToeBase_End": {
+        "parent": "LeftToeBase",
+        "type": "End Site",
+        "offset_raw": [
+            0.0,
+            -2.75684,
+            0.0
+        ],
+        "offset_meters": [
+            0.0,
+            -0.07002373599999999,
+            0.0
+        ],
+        "length_meters": 0.07002373599999999
+    }
+}

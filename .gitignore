@@ -5,7 +5,11 @@
 # EXCLUDE ALL FOLDERS EXCEPT Blaze2Cap
 # ============================================
 # All data, utilities, and test folders (kept in private repo)
-totalcapture_dataset/
+# totalcapture_dataset/  # Commented out to allow pushing dataset files except videos
+totalcapture_dataset/Videos/*.mp4
+totalcapture_dataset/Videos/*.avi
+totalcapture_dataset/Videos/*.mov
+totalcapture_dataset/Videos/*.mkv
 12_keypoints/
 final_numpy_dataset/
 main_all_keypoints/
