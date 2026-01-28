@@ -302,7 +302,7 @@ ax.set_ylim(mid_y - max_range, mid_y + max_range)
 ax.set_zlim(mid_z - max_range, mid_z + max_range)
 
 ax.set_xlabel('X'); ax.set_ylabel('Y'); ax.set_zlabel('Z')
-ax.set_title('Motion Viewer')
+ax.set_title('Calulated from BVH euler data')
 
 ax_slider = plt.axes([0.25, 0.1, 0.50, 0.03], facecolor='lightgoldenrodyellow')
 slider = Slider(ax_slider, 'Frame', 0, len(motion_data)-1, valinit=0, valfmt='%0.0f')
